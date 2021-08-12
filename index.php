@@ -15,7 +15,7 @@
 <html>
 <head>
 	<title>Karina Nosenko</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
