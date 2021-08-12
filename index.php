@@ -110,15 +110,16 @@
 			<div class="container">
 				<div class="about-header">
 					<h3>about</h3>
-					<div class="about-imag">
-						<img src="images/pic-9.jpg" alt="" title="Nice to meet you!"/>
+					<div class="about-cont">
+						<div class="about-imag">
+							<img src="images/pic-9.jpg" alt="" title="Nice to meet you!"/>
+						</div>
+						<div class="about-text">
+							<p>I'm Karina Nosenko, a B.Sc. Software Engineering student.</p> 
+							<p class="desk">I have a 2 years of experience as a Data Center specialist in the IDF. There I learned to handle complex tasks, and work as a part of a team. As well, I get a strong practical base of networking and troubleshooting servers and cloud issues.</p>
+							<p class="desk">I always loved two things: design and technology, that's why I felt in love with Web. It all started with She Codes web course, where I get the basics of HTML/CSS/JS, and continued in the faculty of Software Engineering at Shenkar - college of Engineering, Design and Art.</p>
+						</div>
 					</div>
-					<div class="about-text">
-						<p>I'm Karina Nosenko, a B.Sc. Software Engineering student.</p> 
-						<p class="desk">I have a 2 years of experience as a Data Center specialist in the IDF. There I learned to handle complex tasks, and work as a part of a team. As well, I get a strong practical base of networking and troubleshooting servers and cloud issues.</p>
-						<p class="desk">I always loved two things: design and technology, that's why I felt in love with Web. It all started with She Codes web course, where I get the basics of HTML/CSS/JS, and continued in the faculty of Software Engineering at Shenkar - college of Engineering, Design and Art.</p>
-					</div>
-					<div class="clearfix"></div>
 				</div>
 				<div class="about-sectiongrids">
 					<div class="col-md-6 about-leftgrid">
@@ -166,51 +167,9 @@
 								<div>Visual Studio &nbsp; VScode &nbsp; Android Studio &nbsp; Atom &nbsp; MySQL &nbsp; Arduino IDE &nbsp; Git &nbsp; Linux</div>
 							</div>
 						</div>
-						<!--<div class="polls">
-							<div class="poll">
-								<div class="poll-desc">
-									<h4>JavaScript</h4>
-								</div>
-								<div class="percentage">
-									<p>80%</p>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="skills">
-								<div style="width:80%"> </div>
-							</div>
-						</div>
-						<div class="polls">
-							<div class="poll">
-								<div class="poll-desc">
-									<h4>C++</h4>
-								</div>
-								<div class="percentage">
-									<p>95%</p>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="skills">
-								<div style="width:95%"> </div>
-							</div>
-						</div>
-						<div class="polls">
-							<div class="poll">
-								<div class="poll-desc">
-									<h4>JQuery</h4>
-								</div>
-								<div class="percentage">
-									<p>75%</p>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="skills">
-								<div style="width:75%"> </div>
-							</div>
-						</div>-->
 					</div>
 					<div class="col-md-6 about-rightgrid">
-						<!--<div class="polls">
+						<div class="polls">
 							<div class="poll">
 								<div class="poll-desc">
 									<h4></h4>
@@ -218,8 +177,7 @@
 								<div class="clearfix"></div>
 							</div>
 							<div class="skills">
-								<div><span>♦</span>&nbsp; Ex-member of the first in Israel Google DSC program. 
-								Developed a robot for medical purposes. Acquired a deep skill in mechanical engineering.</div>
+								<div><span>♦</span>&nbsp; Ex-member of the first in Israel Google DSC program.</div>
 							</div>
 						</div>
 						<div class="polls">
@@ -230,66 +188,20 @@
 								<div class="clearfix"></div>
 							</div>
 							<div class="skills">
-								<div><span>♦</span>&nbsp; Dean's List member and excellent student.</div>
+								<div><span>♦</span>&nbsp; Attended a Web course of the She Codes program.</div>
 							</div>
-						</div>-->
-						<!--<div class="polls">
-								<div class="poll">
-									<div class="poll-desc">
-										<h4>C</h4>
-									</div>
-									<div class="percentage">
-										<p>90%</p>
-									</div>
-									<div class="clearfix"></div>
+						</div>
+						<div class="polls">
+							<div class="poll">
+								<div class="poll-desc">
+									<h4></h4>
 								</div>
-								<div class="skills">
-									<div style="width:90%"> </div>
-								</div>
+								<div class="clearfix"></div>
 							</div>
-							<div class="polls">
-								<div class="poll">
-									<div class="poll-desc">
-										<h4>PHP</h4>
-									</div>
-									<div class="percentage">
-										<p>80%</p>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-								<div class="skills">
-									<div style="width:80%"> </div>
-								</div>
+							<div class="skills">
+								<div><span>♦</span>&nbsp; Got a Dean's List award for excellence in learning.</div>
 							</div>
-							<div class="polls">
-								<div class="poll">
-									<div class="poll-desc">
-										<h4>Flutter</h4>
-									</div>
-									<div class="percentage">
-										<p>60%</p>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-								<div class="skills">
-									<div style="width:60%"> </div>
-								</div>
-							</div>
-							<div class="polls">
-								<div class="poll">
-									<div class="poll-desc">
-										<h4>Dart</h4>
-									</div>
-									<div class="percentage">
-										<p>65%</p>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-								<div class="skills">
-									<div style="width:65%"> </div>
-								</div>
-							</div>
-						</div>-->
+						</div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
