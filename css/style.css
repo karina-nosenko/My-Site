@@ -702,12 +702,16 @@ h2.resp-accordion {
 	width: 100%;
 	margin: 5px 0;
 	height: 14px;
-	background:#dedede;
+}
+.poll h4, .skills span {
+	color: #ef664d;
 }
 .skills > div {
 	height: 100%;
 	display: block;
-	background-color: #ef664d;
+	color: #000;
+	font-weight: bold;
+	font-size: 17px;
 }
 .footer-section {
 	padding: 40px 0px;
@@ -794,7 +798,6 @@ padding-bottom: 2em;
 	border-bottom: 1px solid#d5d6d7;
 	font-size: 15px;
 	color: #d5d6d7;
-	text-transform: capitalize;
 	padding: 10px 0;
 }
 
@@ -807,7 +810,6 @@ padding-bottom: 2em;
 	border-bottom: 1px solid#d5d6d7;
 	font-size: 15px;
 	color: #d5d6d7;
-	text-transform: capitalize;
 	padding: 10px 0;
 	height: 2.8em;
 }
@@ -860,7 +862,8 @@ padding-bottom: 2em;
 	text-indent: 100%;
 	background: url("../images/to-top2.png") no-repeat 0px 0px;
 }
-    
+
+
        /*-- responsive-mediaquries --*/
 		@media(max-width:1080px){
 			.grid_box a:hover .zoom-icon {

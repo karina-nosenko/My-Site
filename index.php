@@ -111,7 +111,7 @@
 				<div class="about-header">
 					<h3>about</h3>
 					<div class="about-imag">
-						<img src="images/pic-9.jpg" alt=""/>
+						<img src="images/pic-9.jpg" alt="" title="Nice to meet you!"/>
 					</div>
 					<div class="about-text">
 						<p>I'm Karina Nosenko, a B.Sc. Software Engineering student.</p> 
@@ -125,18 +125,48 @@
 						<div class="polls">
 							<div class="poll">
 								<div class="poll-desc">
-									<h4>HTML/CSS</h4>
-								</div>
-								<div class="percentage">
-									<p>90%</p>
+									<h4>Programming languages</h4>
 								</div>
 								<div class="clearfix"></div>
 							</div>
 							<div class="skills">
-								<div style="width:90%"> </div>
+								<div>C &nbsp; C++ &nbsp; JavaScript &nbsp; Dart</div>
 							</div>
 						</div>
 						<div class="polls">
+							<div class="poll">
+								<div class="poll-desc">
+									<h4>Database languages</h4>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="skills">
+								<div>MySQL</div>
+							</div>
+						</div>
+						<div class="polls">
+							<div class="poll">
+								<div class="poll-desc">
+									<h4>Client side</h4>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="skills">
+								<div>HTML &nbsp; CSS &nbsp; Bootstrap &nbsp; Json &nbsp; AJAX &nbsp; Flutter</div>
+							</div>
+						</div>
+						<div class="polls">
+							<div class="poll">
+								<div class="poll-desc">
+									<h4>Workspaces</h4>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="skills">
+								<div>Visual Studio &nbsp; VScode &nbsp; Android Studio &nbsp; Atom &nbsp; MySQL &nbsp; Arduino IDE &nbsp; Git &nbsp; Linux</div>
+							</div>
+						</div>
+						<!--<div class="polls">
 							<div class="poll">
 								<div class="poll-desc">
 									<h4>JavaScript</h4>
@@ -177,65 +207,89 @@
 							<div class="skills">
 								<div style="width:75%"> </div>
 							</div>
-						</div>
+						</div>-->
 					</div>
 					<div class="col-md-6 about-rightgrid">
-					<div class="polls">
+						<!--<div class="polls">
 							<div class="poll">
 								<div class="poll-desc">
-									<h4>C</h4>
-								</div>
-								<div class="percentage">
-									<p>90%</p>
+									<h4></h4>
 								</div>
 								<div class="clearfix"></div>
 							</div>
 							<div class="skills">
-								<div style="width:90%"> </div>
+								<div><span>♦</span>&nbsp; Ex-member of the first in Israel Google DSC program. 
+								Developed a robot for medical purposes. Acquired a deep skill in mechanical engineering.</div>
 							</div>
 						</div>
 						<div class="polls">
 							<div class="poll">
 								<div class="poll-desc">
-									<h4>PHP</h4>
-								</div>
-								<div class="percentage">
-									<p>80%</p>
+									<h4></h4>
 								</div>
 								<div class="clearfix"></div>
 							</div>
 							<div class="skills">
-								<div style="width:80%"> </div>
+								<div><span>♦</span>&nbsp; Dean's List member and excellent student.</div>
 							</div>
-						</div>
-						<div class="polls">
-							<div class="poll">
-								<div class="poll-desc">
-									<h4>Flutter</h4>
+						</div>-->
+						<!--<div class="polls">
+								<div class="poll">
+									<div class="poll-desc">
+										<h4>C</h4>
+									</div>
+									<div class="percentage">
+										<p>90%</p>
+									</div>
+									<div class="clearfix"></div>
 								</div>
-								<div class="percentage">
-									<p>60%</p>
+								<div class="skills">
+									<div style="width:90%"> </div>
 								</div>
-								<div class="clearfix"></div>
 							</div>
-							<div class="skills">
-								<div style="width:60%"> </div>
-							</div>
-						</div>
-						<div class="polls">
-							<div class="poll">
-								<div class="poll-desc">
-									<h4>Dart</h4>
+							<div class="polls">
+								<div class="poll">
+									<div class="poll-desc">
+										<h4>PHP</h4>
+									</div>
+									<div class="percentage">
+										<p>80%</p>
+									</div>
+									<div class="clearfix"></div>
 								</div>
-								<div class="percentage">
-									<p>65%</p>
+								<div class="skills">
+									<div style="width:80%"> </div>
 								</div>
-								<div class="clearfix"></div>
 							</div>
-							<div class="skills">
-								<div style="width:65%"> </div>
+							<div class="polls">
+								<div class="poll">
+									<div class="poll-desc">
+										<h4>Flutter</h4>
+									</div>
+									<div class="percentage">
+										<p>60%</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="skills">
+									<div style="width:60%"> </div>
+								</div>
 							</div>
-						</div>
+							<div class="polls">
+								<div class="poll">
+									<div class="poll-desc">
+										<h4>Dart</h4>
+									</div>
+									<div class="percentage">
+										<p>65%</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="skills">
+									<div style="width:65%"> </div>
+								</div>
+							</div>
+						</div>-->
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -492,18 +546,18 @@
 					<a href="tel:972545491128"><i class="icon4" title="+972-545491128"></i></a>
 				</div>
 				<div class="contact">
-					<form>
+					<form action="https://formsubmit.co/karina4nosenko@gmail.com" method="POST">
 						<div class="col-md-4 contactgrid">
-							<input type="text" class="text" value=" name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
+							<input type="text" class="text" value=" Name" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
 						</div>
 						<div class="col-md-4 contactgrid">
-							<input type="text" class="text" value="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}">
+							<input type="text" class="text" value="Email" name="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}">
 						</div>
 						<div class="col-md-4 contactgrid">
-							<input type="text" class="text" value="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'phone';}">
+							<input type="text" class="text" value="Phone" name="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'phone';}">
 						</div>
 						<div class="col-md-8 contactgrid1">
-							<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+							<textarea name="message" onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
 						</div>
 						<div class="col-md-4 contactgrid2">
 							<input type="submit" value="[send message]">
@@ -512,7 +566,7 @@
 					</form>
 				</div>
 				<div class="footer-bottom">
-					<p>&copy; 2021 Onepage . All rights  Reserved | Template by<a href="http://templatestock.com" target="target_blank">Template Stock</a> <br> <a href="https://www.shenkar.ac.il/he/departments/engineering-software-department" target="target_blank"><b>תואר ראשון בהנדסת תוכנה בשנקר</b></a></p>
+					<p>&copy; 2021 Onepage . All rights  Reserved | Template by<a href="http://templatestock.com" target="target_blank">Template Stock</a> <br> <a href="https://www.shenkar.ac.il/he/departments/engineering-software-department" target="target_blank">תואר ראשון בהנדסת תוכנה בשנקר</a></p>
 				</div>
 				<script type="text/javascript">
 					$(document).ready(function() {													
