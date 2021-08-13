@@ -31,6 +31,7 @@
 	<script src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -47,11 +48,11 @@
 				<div class="logo">
 					<a href="#"><img src="images/logo.png" alt=""/></a>
 				</div>
+				<span class="menu"> </span>
 				<div class="top-menu">
-					<span class="menu"> </span>
 					<ul>
 						<nav class="cl-effect-5">
-							<li><a class="active" href="index.html"><span data-hover="Home">home</span></a></li>
+							<li><a class="active" href="#"><span data-hover="Home">home</span></a></li>
 							<li><a href="#about" class="scroll"><span data-hover="about">about</span></a></li>
 							<li><a href="#work" class="scroll"><span data-hover="portfolio"><span>portfolio</span></a></li>
 							<li><a href="#services" class="scroll"><span data-hover="CV">CV</span></a></li>
@@ -89,7 +90,7 @@
 							</article>
 							<article style="position: absolute; width: 100%; opacity: 0;">
 								<div class="banner-wrap">
-									<div class="banner_center">
+									<div class="banner_center last">
 										<h1>excited</h1> 
 										<h2>by taking <span>complex problems</span></h2>
 										<h2>and simplifying them</h2>

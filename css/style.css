@@ -853,17 +853,15 @@ padding-bottom: 2em;
 
 
 /*-- responsive-mediaquries --*/
-@media(min-width:1201px) {
-	.top-menu  ul{
-		display:block;
-	}
-}
-@media(max-width:1200px) and (min-width:1067px) {
+@media(max-width:1200px) {
 	.col-md-6.about-rightgrid .polls {
 		margin-bottom: 20px;
 	}
+	.banner_center.last {
+		width: 60%;
+	}
 }
-@media(max-width:1068px) and (min-width:993px) {
+@media(max-width:1068px) {
 	.col-md-4.contactgrid2 input{
 		position: relative;
 		right: 40px;
@@ -881,13 +879,17 @@ padding-bottom: 2em;
 		width: 28px;
 		height: 25px;
 		position: absolute;
-		right: 20px;
-		top: 20px;
+		right: 40px;
+		top: 40px;
 	}
 	.top-menu {		
 		float:none;
-		width: 100%;
+		width: 300px;
 		text-align: right;
+		position: absolute;
+		right: 30px;
+		margin: 0;
+		top: 65px;
 	}
 	.top-menu  ul{
 		display:none;
