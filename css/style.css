@@ -642,7 +642,6 @@ h2.resp-accordion {
 }
 .about-header h3 span {
 	color: #ef664d;;
-
 }
 .about-cont {
 	display: flex;
@@ -664,27 +663,20 @@ h2.resp-accordion {
 }
 .about-sectiongrids{
 	padding: 40px 0px;
+	display: flex;
+	flex-wrap: wrap;
 }
 .polls {
 	padding: 10px 0;
 }
-.poll-desc {
+/* .poll-desc {
 	float: left;
-}
+} */
 .poll-desc h4{
 	font-size: 17px;
 	color: #2a404e;
 	font-weight:bold;
 	text-transform: uppercase;
-}
-.percentage {
-	float: right;
-	margin-right: 26%
-}
-.percentage p{
-	font-size:17px;
-	color:#2a404e;
-	font-weight: bold;
 }
 .skills {
 	width: 100%;
@@ -925,6 +917,9 @@ padding-bottom: 2em;
 	.wmuSliderPagination {
 		right: 46%;
 	}  
+	.polls {
+		margin-bottom: 15px;
+	}
 }
 		/*@media(max-width:1080px){
 			.grid_box a:hover .zoom-icon {
