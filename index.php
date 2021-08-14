@@ -421,19 +421,9 @@
 				</div>
 				<div class="services-sectiongrids">
 					<div class="col-md-4 services-grid">
-						<img src="images/img1.png" alt=""/>
-						<h4></h4>
-						<p></p>
-					</div>
-					<div class="col-md-4 services-grid">
 						<a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:43c78094-029b-447d-90f1-8f3630d6ea7b" target="_blank" title="karina_cv"><img src="images/img2.png" alt=""/></a>
 							<a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:43c78094-029b-447d-90f1-8f3630d6ea7b" target="_blank" title="karina_cv"><h4>Download CV</h4></a>
 						<p>Tap to open a PDF file.</p>
-					</div>
-					<div class="col-md-4 services-grid">
-						<img src="images/img3.png" alt=""/>
-						<h4></h4>
-						<p></p>
 					</div>
 					<div class="clearfix"></div>
 					<div class="arrow1">

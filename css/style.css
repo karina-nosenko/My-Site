@@ -214,9 +214,11 @@ ul.wmuSliderPagination {
 }
 .services-sectiongrids {
 	text-align: center;
-}
-.services-sectiongrids div:nth-child(1), .services-sectiongrids div:nth-child(3) {
-	visibility: hidden;
+	width: 100%;
+} 
+div.col-md-4.services-grid {
+	margin: 0 auto;
+	float: none;
 }
 .services-grid h4 {
 	font-size: 1.3em;
