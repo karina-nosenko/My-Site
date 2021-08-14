@@ -253,11 +253,13 @@
 											<div id="projects">
 												<?php
 													while($row = mysqli_fetch_assoc($result)) {
+														$img = $row["img"];
+														if(!$img) $img = "images/pic-4.jpg";
 														//output data from each row
 														echo '<div class="col-md-3 img-top grid_box">';
 														echo '<a href="#"  title="'. $row["name"] .'" data-toggle="modal" data-target="#myModal'. $row["id"] .'">';
 														echo '<div class="card">';
-														echo '<img src="' . $row["img"] . '" alt="'. $row["name"] .'" style="width:100%">';
+														echo '<img src="'.$img.'" alt="'. $row["name"] .'" style="width:100%">';
 														echo '<div class="container">';
 														echo '<h4><b>'. $row["name"] .'</b></h4> ';
 														echo '<p>'. $row["desc"] . '</p> ';
@@ -283,6 +285,8 @@
 											<div id="modals">
 												<?php
 													while($row = mysqli_fetch_assoc($result)) {
+														$img = $row["img"];
+														if(!$img) $img = "images/pic-4.jpg";
 														//output data from each row
 														echo '<div class="modal" id="myModal'. $row["id"] .'">';
 														echo '<div class="modal-dialog">';
@@ -292,7 +296,7 @@
 														echo '<button type="button" class="close" data-dismiss="modal">&times;</button>';
 														echo '</div>';
 														echo '<div class="modal-body">';
-														echo '<img src="'. $row["img"] .'" alt="'. $row["name"] .'" title="'. $row["name"] .'">';
+														echo '<img src="'.$img.'" alt="'. $row["name"] .'" title="'. $row["name"] .'">';
 														echo '<br><br>';
 														echo '<p>'. $row["text"] .'</p>';
 														echo '<br>';
