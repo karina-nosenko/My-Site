@@ -4,7 +4,7 @@
 
 <?php
     // get all data from DB
-    $query = "SELECT * FROM portfolio_karinanosenko";
+    $query = "SELECT * FROM portfolio_karinanosenko ORDER BY id";
     $result = mysqli_query($connection, $query);
     if(!$result) {
         die("DB query failed.");

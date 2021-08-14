@@ -351,6 +351,24 @@ ul.wmuSliderPagination {
 #projects .container {
 	padding: 10px;
 }
+#projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+#projects .col-md-3.img-top.grid_box {
+	max-width: 300px;
+	height: auto;
+}
+#projects .col-md-3.img-top.grid_box a, #projects .col-md-3.img-top.grid_box .card {
+	height: auto;
+}
+/*#projects .col-md-3.img-top.grid_box .card {
+	position: relative;
+}
+#projects .col-md-3.img-top.grid_box .container {
+	position: absolute;
+	bottom: 0;
+} */
 #modals .modal-body .technologies{
 	color:#ef664d;
 	font-weight: bold;
